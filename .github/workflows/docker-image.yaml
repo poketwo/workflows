@@ -3,7 +3,7 @@ name: Build and Push
 on:
   workflow_call:
     inputs:
-      package:
+      package-name:
         required: true
         type: string
     secrets:
