@@ -34,4 +34,6 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           push: true
+          secrets: |
+            GIT_AUTH_TOKEN=${{ secrets.GHCR_PAT }}
 
